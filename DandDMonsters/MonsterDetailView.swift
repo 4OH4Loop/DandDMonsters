@@ -26,7 +26,7 @@ struct MonsterDetailView: View {
                     
                     Text("Alignment:")
                         .bold()
-                    Text(monsterDetailVM.type.capitalized)
+                    Text(monsterDetailVM.alignment.capitalized)
                         .padding(.bottom)
                 }
                 Spacer()
@@ -34,7 +34,7 @@ struct MonsterDetailView: View {
                 VStack (alignment: .leading) {
                     Text("Size:")
                         .bold()
-                    Text(monsterDetailVM.type.capitalized)
+                    Text(monsterDetailVM.size.capitalized)
                         .padding(.bottom)
                     
                     Text("Hit Points:")
